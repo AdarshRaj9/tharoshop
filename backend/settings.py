@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
-import django_heroku
+#import django_heroku
 
 from pathlib import Path
 
@@ -203,4 +203,4 @@ MEDIA_ROOT = 'static/images '
 CORS_ALLOW_ALL_ORIGINS=True
 
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
