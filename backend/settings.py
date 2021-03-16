@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'base.apps.BaseConfig',
     'cloudinary_storage',
+    'cloudinary',
 
 
 
