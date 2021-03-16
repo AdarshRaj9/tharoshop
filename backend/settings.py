@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 #import django_heroku
-import cloudinary.uploader
+# import cloudinary.uploader
 import cloudinary_storage
 
 from pathlib import Path
