@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 #import django_heroku
-import cloudinary
 import cloudinary.uploader
 import cloudinary_storage
 
@@ -54,7 +53,6 @@ INSTALLED_APPS = [
     'corsheaders',
     'base.apps.BaseConfig',
     'cloudinary_storage',
-    'cloudinary',
 
 
 
