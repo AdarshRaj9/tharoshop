@@ -13,7 +13,7 @@ import os
 #import django_heroku
 import cloudinary
 import cloudinary.uploader
-import cloudinary.api
+import cloudinary_storage
 
 from pathlib import Path
 
@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'base.apps.BaseConfig',
-    'cloudinary',
+    'cloudinary_storage',
 
 
 
