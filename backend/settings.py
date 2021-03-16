@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 #import django_heroku
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 from pathlib import Path
 
@@ -50,6 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'base.apps.BaseConfig',
+    'cloudinary',
 
 
 
@@ -204,3 +208,9 @@ CORS_ALLOW_ALL_ORIGINS=True
 
 
 #django_heroku.settings(locals())
+
+cloudinary.config( 
+  cloud_name = "dgtpqurhd", 
+  api_key = "558793867666724", 
+  api_secret = "EV-P88doYqaEiUFd_B8Gr6wCBV0" 
+)
