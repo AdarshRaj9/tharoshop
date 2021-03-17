@@ -1,1 +1,1 @@
-web: gunicorn tharoshop.wsgi --log-file -
+web: gunicorn backend.wsgi --log-file -
